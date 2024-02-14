@@ -1,0 +1,7 @@
+﻿INSERT INTO Persons ([Age], [Name]) VALUES (13, 'Anna')
+INSERT INTO Persons ([Age], [Name]) VALUES (23, 'Lise')
+INSERT INTO Persons ([Age], [Name]) VALUES (23, 'Mike')
+INSERT INTO RelationshipType ([Name]) VALUES ('Friends')
+INSERT INTO Courses ([Name]) VALUES ('C++')
+INSERT INTO PersonCourse ([PersonId], [CourseId]) VALUES (1, 1)
+INSERT INTO Relationships ([PersonOneId], [PersonAnotherId], [RelatioshipTypeId]) VALUES (1, 2, 1)
